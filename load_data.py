@@ -13,5 +13,5 @@ start_time = time.time()
 df = pd.read_csv('datasets/yelp_tiny_10k.csv')
 load_time = time.time() - start_time
 
-print(f"✓ Data loaded in {load_time:.2f} seconds")
+print(f"YES! ✓ Data loaded in {load_time:.2f} seconds")
 print(f"Dataset shape: {df.shape}")
